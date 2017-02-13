@@ -116,11 +116,11 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 				    <div class="modal-body" align="left" id="body1">
 				       <form method="post" id="u6900">
 				       		<h3>Select Model</h3>
-				       		<input type="checkbox" name="model" value="Apple"> <span class="check">Apple</span><br>
-				       		 <input type="checkbox" name="model" value="Moto"> <span class="check"> Moto </span><br>
-  							 <input type="checkbox" name="model" value="Samsung" > <span class="check"> Samsung </span><br>
-  							 <input type="checkbox" name="model" value="Micro"> <span class="check"> Micromax </span><br>
-  							 <input type="checkbox" name="model" value="Nokia" > <span class="check"> Nokia </span><br>
+				       		<input type="checkbox" name="model" value="canon"> <span class="check">Canon</span><br>
+				       		 <input type="checkbox" name="model" value="nikon"> <span class="check"> Nikon </span><br>
+  							 <input type="checkbox" name="model" value="sony" > <span class="check"> Sony </span><br>
+  							 <input type="checkbox" name="model" value="pana"> <span class="check"> Panasonic </span><br>
+  							 <input type="checkbox" name="model" value="kodak" > <span class="check"> Kodak </span><br>
 				       		<br/>
 					        
 					    </form>
@@ -132,7 +132,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 							 
 				       		 <input type="checkbox" name="issue" value="Display"> <span class="check">Display</span><br>
 				       		 <input type="checkbox" name="issue" value="Battery"> <span class="check"> Battery </span><br>
-  							 <input type="checkbox" name="issue" value="Software" > <span class="check"> Software </span><br>
+  							 <input type="checkbox" name="issue" value="lens" > <span class="check"> Lens </span><br>
   							 <input type="checkbox" name="issue" value="Keypad"> <span class="check"> Keypad </span><br>
   							 <input type="checkbox" name="issue" value="Others" > <span class="check"> Others </span><br>
 							   
@@ -141,15 +141,47 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 					</div>
 					
 					
+						
 					<div class="modal-body-3" align="left" id="body3">
 				       <form method="post" id="u6900">
 				       		<h3>Where do you require the service?</h3>
+						    
 						    House/Flat No<br/>
-						    <input type="text" value="house"/>			        
-					    </form>
-					</div>
+						    <textarea  id="text1" cols="46" rows="1" name="house">
+						    </textarea>	
+						    <br/>
+						    Landmark<br/>
+						    <textarea id="text1" cols="46" rows="1" name="land">
+						    </textarea>	
+						    <br/>
+						    Locality<br/>
+						    <textarea id="text1" cols="46" rows="1" name="lacality">
+						    </textarea>	  
+						</form>
+					</div> 
 					
-				    <div class="modal-footer" id="footer1">
+					<div class="modal-body-4" align="left" id="body4">
+				     <form method="post" id="u6900">
+				       		<h3>Pick a date</h3>
+				       		<input type="date" name="pickup" id="pickup1"/>
+						    <h3>Pick a service time</h3>
+						     
+					        <div class="transition clip_frame grpelem" id="u248"><!-- image -->
+					          <input type="radio" name="time" value="09am-11am" checked> 09am-11am<br> 
+					        </div>
+					        <div class="transition clip_frame grpelem" id="u258"><!-- image -->
+					          &nbsp; &nbsp;<input type="radio" name="time" value="11am-1pm">11am-1pm<br> 
+					        </div>	
+					        <div class="transition clip_frame grpelem" id="u268"><!-- image -->
+					          &nbsp; &nbsp;&nbsp;<input type="radio" name="time" value="1pm-3pm" > 1pm-3pm<br> 
+					        </div>
+					        <div class="transition clip_frame grpelem" id="u278"><!-- image -->
+					          &nbsp; &nbsp;&nbsp;<input type="radio" name="time" value="3pm-5pm">3pm-5pm<br>
+					        </div>
+			        </form>					
+				  </div> <br/>
+								
+			   <div class="modal-footer" id="footer1">
 				    	<div>
 				      		<button id="next1">Next<span>&#8594;</span></button>
 				      		<button id="back1" onclick="window.location.href='mobile.html'"><span>&#x2190;</span>Back</button>
@@ -158,20 +190,26 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 				    <div class="modal-footer" id="footer2">
 				    <div>
 				      		<button id="next2">Next<span>&#8594;</span></button>
-				      		<button id="back2" onclick="document.getElementById('body1').style.display='block'"><span>&#x2190;</span>Back</button>
+				      		<button id="back2" ><span>&#x2190;</span>Back</button>
 				     	</div>
 				    </div>
 				     <div class="modal-footer" id="footer3">
 				    	<div>
 				      		<button id="next3">Next<span>&#8594;</span></button>
-				      		<button id="back3" onclick="document.getElementById('body1').style.display='block'"><span>&#x2190;</span>Back</button>
+				      		<button id="back3"><span>&#x2190;</span>Back</button>
 				     	</div>
+				    </div>
+				    
+				    <div class="modal-footer" id="footer4">
+				    	<div>
+				      		<button id="next4">Submit</button>
+				      		<button id="back4"><span>&#x2190;</span>Back</button>
+				     	</div>   	
 				    </div>
 				  </div>
 				
 				</div>
-				
-				<script>
+			<script>
 				// Get the modal
 				var modal = document.getElementById('myModal');
 				var modal1 = document.getElementById('myModal1');
@@ -180,6 +218,11 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 				var btn1 = document.getElementById("next1");
 				var btn2 = document.getElementById("next2");
 				var btn3= document.getElementById("next3");
+				var btn4= document.getElementById("next4");
+				
+				var bk2=document.getElementById("back2");
+				var bk3=document.getElementById("back3");
+				var bk4=document.getElementById("back4");
 				// Get the <span> element that closes the modal
 				var span = document.getElementsByClassName("close")[0];
 				
@@ -190,8 +233,10 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 					footer1.style.display="block";
 					body2.style.display ="none";
 					body3.style.display="none";
+					body4.style.display="none";
 					footer2.style.display="none";
 					footer3.style.display="none";
+					footer4.style.display="none";
 				}
 				btn1.onclick = function() {
 				    modal.style.display = "block";
@@ -205,16 +250,54 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 					body1.style.display="none";
 					body2.style.display ="none";
 					body3.style.display="block";
+					body4.style.display="none";
 					footer1.style.display="none";
 					footer2.style.display="none";
 					footer3.style.display="block";
+					footer4.style.display="none";
 				}
 				btn3.onclick = function() {
 				    modal.style.display = "block";
-					
+					body4.style.display="block";
+					footer4.style.display="block";
+					body1.style.display="none";
+					footer1.style.display="none";
+					body2.style.display="none";
+					footer2.style.display="none";
+					body3.style.display="none";
+					footer3.style.display="none";
+				}
+				bk2.onclick = function() {
+				    modal.style.display = "block";
+					body1.style.display="block";
+					body2.style.display ="none";
+					footer1.style.display="block";
+					footer2.style.display="none";
 					
 				}
-				
+				bk3.onclick = function() {
+				    modal.style.display = "block";
+					body1.style.display="none";
+					body2.style.display ="block";
+					footer1.style.display="none";
+					footer2.style.display="block";
+					body3.style.display="none";
+					footer3.style.display="none";
+					body4.style.display="none";
+					footer4.style.display="none";
+				}
+				bk4.onclick = function() {
+				    modal.style.display = "block";
+				    body1.style.display="none";
+				    body2.style.display="none";
+					body3.style.display="block";
+					body4.style.display ="none";
+					footer1.style.display="none";
+					footer2.style.display="none";
+					footer3.style.display="block";
+					footer4.style.display="none";
+					
+				}
 				// When the user clicks on <span> (x), close the modal
 				span.onclick = function() {
 				    modal.style.display = "none";
@@ -226,8 +309,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
 				        modal.style.display = "none";
 				    }
 				}
-				</script>
-    	           	
+				</script>	           	
         </div>
        </div> 
           

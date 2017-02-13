@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Admin</title>
+      <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=4254526159"/>
+	  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=3916672252"/>
+	  <link rel="stylesheet" type="text/css" href="css/admin.css?crc=4219221946" id="pagesheet"/>
+	  <link rel="stylesheet" type="text/css" href="css/modalView.css"/>
+	  <link rel="stylesheet" type="text/css" href="css/footer.css"/>
+	  <link rel="stylesheet" type="text/css" href="css/index.css"/>
+	    
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<!--LOAD JQUERY-->
+<!-- <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.7/jquery.validate.min.js"></script> -->
+<!--LOAD THIS FILE AFTER JQUERY
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+	    
+</head>
+<body>
+    
+   <div id="header">
+   	  <div class="clearfix grpelem" id="pbuttonu3008"><!-- group -->
+       <div class="new-hyperLink clearfix" id="u3023-5"><!-- content -->
+        <br/>
+        <p id="u3023-3"><a class="nonblock" href="http://#">Logout</a></p>
+       </div>
+      </div>
+   
+      <a class="nonblock nontext clip_frame" id="u159" href="index.html"><img  src="images/compress_logo3.png" width="284" height="48"/>  </a>
+   </div>
+   
+	<div id="back">	
+		<div class="container" >
+			 <div id="tabs">
+			  <h3>&nbsp;&nbsp;&nbsp;Admin</h3>
+				  <ul class="nav nav-tabs">
+					    <li ><a data-toggle="tab" href="#create">Create User</a></li>
+					    <li ><a data-toggle="tab" href="#device">Device Details</a></li>
+				       <li><a data-toggle="tab" href="#process">Order Processing</a></li>
+				       <li><a data-toggle="tab" href="#management">Order Management</a></li>
+				  </ul>
+			</div>
+		</div>
+	</div>
+<div class="tab-content" id="content">
+    <div id="create" class="tab-pane fade in active">
+      <h3 align="center" id="heading">Create User</h3>
+      <br/>
+      <div class="container">
+      <div class="row" id="create_row">
+	      		<div class="col-md-7">
+	      			<div align="center" id="formBg">
+			        		<form id="createUser" action="" method="post" role="form">
+			        		
+						    <div class="form-group" align="left">
+						      <label for="fname">First Name:</label>
+						      <input type="text" class="form-control" id="fname" placeholder="Enter First Name">
+						    </div>
+						    <div class="form-group" align="left">
+						      <label for="lname">Last Name:</label>
+						      <input type="text" class="form-control" id="lname" placeholder="Enter Last name">
+						    </div>
+						    <div class="form-group" align="left">
+						      <label for="gender">Gender:</label><br/>
+							  <label class="radio-inline">
+						          <input type="radio" name="gender">Male
+						      </label>
+						      <label class="radio-inline">
+						     	  <input type="radio" name="gender">Female
+						      </label>
+						    </div>
+						     <div class="form-group" align="left">
+						      <label for="addr1">Address:</label>
+						      <input type="text" class="form-control" id="addr1" placeholder="Address Line ">
+						      
+						    </div>
+						     
+						     <div class="form-group" align="left">
+						      <label for="city">City/town:</label>
+						      <input type="text" class="form-control" id="city" placeholder="City/Town name">
+						    </div>
+						    <div class="form-group" align="left">
+						      <label for="State">State:</label>
+						      <input type="text" class="form-control" id="state" placeholder="State">
+						    </div>
+						    <div class="form-group" align="left">
+						      <label for="zip">Zip/Postal code:</label>
+						      <input type="text" class="form-control" id="zip" placeholder="Zip/Postal Code">
+						    </div>
+						    <div class="form-group" align="left">
+						      <label for="country">Country:</label>
+						      <input type="text" class="form-control" id="country" placeholder="Country">
+						    </div>
+						    <div class="form-group" align="left">
+						      <label for="phone">Phone:</label>
+						      <input type="text" class="form-control" id="phone" placeholder="Phone number">
+						    </div>
+						   <div class="form-group" align="left">
+						      <label for="email">Email:</label>
+						      <input type="email" class="form-control" id="email" placeholder="Enter email">
+						    </div>
+						    <div class="form-group" align="left">
+						      <label for="pwd">Password:</label>
+						      <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+						    </div>
+						     
+						     
+						    <button id= "createBtn" type="button" class="btn btn-primary btn-md">Create</button>
+			        		<button  id="resetbtn" type="reset" >Reset</button>
+			        </form>
+	      		 </div>
+	       </div>
+	       <div class="col-md-5">
+	       		<br/><br/><br/>
+	       		<img id="img" src="images/multy-user.png" height="300" width="300"/>
+	       </div>
+       </div>
+    </div>
+    </div>
+   
+    
+    <div id="device" class="tab-pane fade">
+      <h3 align="center" id="heading">Device Details </h3>
+      <div class="container">
+	      <div class="row">
+	      		<div class="col-md-7">
+	      			<img src="images/devices-u6107.png" height="400" width="600"/>
+	      		</div> 
+	      		<div class="col-md-5">
+	      		<br/><br/>
+	      		<ul id="device_ul">
+	      			<li><a href="#">List the devices</a></li><br/>
+	      			<li><a href="#">Upload devices</a></li><br/>
+	      			<li><a href="#">Set pick-up/drop-off location</a></li><br/>
+	      			<li><a href="#">Update devices</a></li><br/>
+	      		</ul>
+	      		</div>
+	      </div>   
+      </div>
+    </div>
+    <div id="process" class="tab-pane fade">
+      <h3 align="center" id="heading"> Order Processing</h3>
+      	<div class="container">
+	      <div class="row">
+	      		<div class="col-md-5">
+	      			<p>hello</p>
+	      		</div> 
+	      		<div class="col-md-7">
+	      			<p>world</p>
+	      		</div>
+	     </div>
+       </div>
+     </div>
+    <div id="management" class="tab-pane fade">
+      <h3 align="center" id="heading">Order Management</h3>
+      	<div class="container">
+	      <div class="row">
+	      		<div class="col-md-7">
+	      			<p>hello</p>
+	      		</div> 
+	      		<div class="col-md-5">
+	      			<p>world</p>
+	      		</div>
+	     </div>
+       </div>
+    </div>
+  </div>
+
+<br/>
+<!-- footer -->
+<footer class="site-footer" id="footer">
+	<div class="container" id="footer_content">
+		<div class="row">
+			<div class="col-md-4">
+				<p id="" ><span id="">Company</span><br/><br/>     	
+			       		<span id=""><a href="about.html">About Us</a><br/>
+			       		<a href="#">How it works</a><br/>
+			       		<a href="#">Blog</a><br/>
+			       		<a href="#">Terms&amp;Conditions</a><br/>
+			       		<a href="#">Policy </a><br/>
+			       		<a href="#">Contact Us </a>
+			       			
+			       		</span>
+	       			</p>
+			</div>
+			<div class="col-md-4">
+			footer content
+			</div>
+			<div class="col-md-4">
+			footer content
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- scripts -->
+<script>
+	function validateText(id)
+	{
+		if($("#"+id)==null || $("#"+id)=="")
+			{
+			   var div= $("#"+id).closest("div");
+			   div.addClass("has-error");
+			   return false;
+			}
+		else
+			return true;
+	}
+    $(document).ready(
+     	function()
+     	{
+     		$("#createBtn").click(function())
+     		{
+     			if(!validateText("fname"));
+     			{
+     				return false;
+     			}
+     			if(!validateText("lname"));
+     			{
+     				return false;
+     			}
+     			if(!validateText("phone "));
+     			{
+     				return false;
+     			}
+     			$("form#createUser").submit();
+     		});
+     	}
+    );
+</script>
+</body>
+</html>

@@ -40,6 +40,23 @@
 #u6098-4{margin-top:171px;color:#3F3F3F;margin-right:-10000px;line-height:42px;font-weight:700;position:relative;font-family:quicksand, sans-serif;min-height:57px;font-size:35px;background-color:transparent;z-index:30;}
 #u6092-bw{z-index:24;min-height:228px;}
 #u6101{min-height:407px;z-index:25;padding-bottom:17px;-pie-background:rgba(219,219,219,0.76);}
+
+
+#u6100{font-size:50px;color:black;}
+#next{border: 2px solid #676262; font-color:black;border-radius: 8px; padding: 12px 28px; border-color: #89AFD6;background-color: #FFFFFF;border-style: solid;border-width: 2px;}
+#next1{font-size:20px;border: 1px solid #676262;border-radius: 8px; float: right; border-color: #000000;background-color: #FFFFFF;border-style: solid;border-width: 1px;}
+#back1{font-size:20px;border: 1px solid #676262;border-radius: 8px;float: left;border-color: #000000;background-color: #FFFFFF;border-style: solid;border-width: 1px;}
+.check{bottom-padding : 20px; cursor: pointer;}
+#next2{font-size:20px;border: 1px solid #676262;border-radius: 8px; float: right; border-color: #000000;background-color: #FFFFFF;border-style: solid;border-width: 1px;}
+#back2{font-size:20px;border: 1px solid #676262;border-radius: 8px;float: left;border-color: #000000;background-color: #FFFFFF;border-style: solid;border-width: 1px;}
+#next3{font-size:20px;border: 1px solid #676262;border-radius: 8px; float: right; border-color: #000000;background-color: #FFFFFF;border-style: solid;border-width: 1px;}
+#back3{font-size:20px;border: 1px solid #676262;border-radius: 8px;float: left;border-color: #000000;background-color: #FFFFFF;border-style: solid;border-width: 1px;}
+#next4{font-size:20px;border: 1px solid #676262;border-radius: 8px; float: right; border-color: #000000;background-color: #FFFFFF;border-style: solid;border-width: 1px;}
+#back4{font-size:20px;border: 1px solid #676262;border-radius: 8px;float: left;border-color: #000000;background-color: #FFFFFF;border-style: solid;border-width: 1px;}
+#pickup1{border: 1px solid #676262;}
+#text1{float:center;border:solid 1px gray;}
+
+
 #u6052_align_to_page,#u6077_align_to_page,#u6080_align_to_page,#u6092_align_to_page,#u6101_align_to_page
 {margin-left:auto;margin-right:auto;position:relative;}#u6156{background-position:0px 0px;margin-right:-10000px;position:relative;margin-top:41px;background-repeat:no-repeat;height:366px;z-index:46;vertical-align:top;}
 #u6104-4{margin-top:192px;color:#3F3F3F;margin-right:-10000px;line-height:42px;font-weight:700;position:relative;font-family:quicksand, sans-serif;min-height:57px;font-size:35px;background-color:transparent;z-index:34;}

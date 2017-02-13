@@ -1,0 +1,55 @@
+.body{
+	height:100%;
+	
+}
+#header{
+	   	width:100%;
+	   	height:100px;
+}
+#tabs{
+	font-size:20px;
+	
+}
+
+#back{
+	background:rgba(219,219,219,0.76);
+	padding-bottom:8px;
+}
+#footer
+{
+	padding-top:10px;
+	background:#89AFD6; 
+	
+}
+#footer_content{
+	padding-top:10px;
+	height:100%;
+	
+}
+#content{
+	height:100%;
+	background:transparent;
+}
+#createUser{
+	width:50%;
+	background::rgba(219,219,219,0.76);
+	float:center;
+}
+#resetbtn{
+	padding: 08px 18px;
+	border-radius: 4px;
+	font-size: 14px;
+}
+#heading{
+	border-bottom:2px solid rgba(219,219,219,0.76);
+	padding-bottom:6px;
+}
+#device_ul{
+	font-size:22px;
+	margin:15px;
+}
+
+
+#img{
+	padding-top:10px;
+}

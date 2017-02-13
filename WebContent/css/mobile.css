@@ -4,7 +4,8 @@
 #page{background-image:none;margin-left:auto;margin-right:auto;background-color:transparent;border-width:0px;width:100%;border-color:#000000;z-index:1;}#page_position_content{margin-bottom:-136px;width:100%;}#u159{position:fixed;}#pu6042{width:100%;z-index:3;}
 #u6042,#u6042-bw{z-index:3;}
 #u6048-6{font-family:quicksand, sans-serif;min-height:38px;font-size:17px;line-height:20px;text-align:center;font-weight:400;z-index:4;background-color:transparent;}
-#u6048-4{line-height:0px;font-size:45px;line-height:30px;font-family: "sans-serif";font-weight: 200;text-decoration:underline;}
+#u6048-4{padding-top:28px;font-size:45px;line-height:30px;font-family: "sans-serif";font-weight:200;text-decoration:underline;}
+
 #u6100{font-size:50px;color:black;}
 #next{border: 2px solid #676262; font-color:black;border-radius: 8px; padding: 12px 28px; border-color: #89AFD6;background-color: #FFFFFF;border-style: solid;border-width: 2px;}
 #next1{font-size:20px;border: 1px solid #676262;border-radius: 8px; float: right; border-color: #000000;background-color: #FFFFFF;border-style: solid;border-width: 1px;}
@@ -12,9 +13,12 @@
 .check{bottom-padding : 20px; cursor: pointer;}
 #next2{font-size:20px;border: 1px solid #676262;border-radius: 8px; float: right; border-color: #000000;background-color: #FFFFFF;border-style: solid;border-width: 1px;}
 #back2{font-size:20px;border: 1px solid #676262;border-radius: 8px;float: left;border-color: #000000;background-color: #FFFFFF;border-style: solid;border-width: 1px;}
-
 #next3{font-size:20px;border: 1px solid #676262;border-radius: 8px; float: right; border-color: #000000;background-color: #FFFFFF;border-style: solid;border-width: 1px;}
 #back3{font-size:20px;border: 1px solid #676262;border-radius: 8px;float: left;border-color: #000000;background-color: #FFFFFF;border-style: solid;border-width: 1px;}
+#next4{font-size:20px;border: 1px solid #676262;border-radius: 8px; float: right; border-color: #000000;background-color: #FFFFFF;border-style: solid;border-width: 1px;}
+#back4{font-size:20px;border: 1px solid #676262;border-radius: 8px;float: left;border-color: #000000;background-color: #FFFFFF;border-style: solid;border-width: 1px;}
+#pickup1{border: 1px solid #676262;}
+#text1{float:center;border:solid 1px gray;}
 
 #u6048{color:#F44646;font-size:35px;line-height:30px;border: 2px solid #676262;}
 #u6048-2{font-size:25px;line-height:30px;}
